@@ -1,4 +1,7 @@
-"""830. Positions of Large Groups"""
+"""830. Positions of Large Groups
+
+tags: itertools
+"""
 
 
 class Solution:

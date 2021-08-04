@@ -1,4 +1,7 @@
-"""1019. Next Greater Node In Linked List"""
+"""1019. Next Greater Node In Linked List
+
+tags: monotonic stack, linked list
+"""
 
 
 # Definition for singly-linked list.

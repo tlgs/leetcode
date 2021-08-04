@@ -1,4 +1,7 @@
-"""1436. Destination City"""
+"""1436. Destination City
+
+tags: set
+"""
 
 
 class Solution:

@@ -1,4 +1,7 @@
-"""496. Next Greater Element I"""
+"""496. Next Greater Element I
+
+tags: monotonic stack, hash table
+"""
 
 
 class Solution:
@@ -6,8 +9,9 @@ class Solution:
         stack = []
         m = {}
         for i, v in enumerate(nums2):
-            while stack and v > stack[-1]:
+            while stack and stack[-1] < v:
                 m[stack.pop()] = v
+
             stack.append(v)
 
         return [m.get(x, -1) for x in nums1]

@@ -1,4 +1,7 @@
-"""1894. Find the Student that Will Replace the Chalk"""
+"""1894. Find the Student that Will Replace the Chalk
+
+tags: array
+"""
 
 
 class Solution:
