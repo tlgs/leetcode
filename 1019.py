@@ -1,5 +1,6 @@
-"""1019. Next Greater Node In Linked List (MEDIUM)
+"""1019. Next Greater Node In Linked List
 
+difficulty: medium
 tags: monotonic stack, linked list
 """
 

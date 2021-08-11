@@ -1,5 +1,6 @@
-"""1909. Remove One Element to Make the Array Strictly Increasing (EASY)
+"""1909. Remove One Element to Make the Array Strictly Increasing
 
+difficulty: easy
 tags: array
 """
 

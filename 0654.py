@@ -1,5 +1,6 @@
-"""654. Maximum Binary Tree (MEDIUM)
+"""654. Maximum Binary Tree
 
+difficulty: medium
 tags: monotonic stack, binary tree
 """
 

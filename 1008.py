@@ -1,5 +1,6 @@
-"""1008. Construct Binary Search Tree from Preorder Traversal (MEDIUM)
+"""1008. Construct Binary Search Tree from Preorder Traversal
 
+difficulty: medium
 tags: monotonic stack, binary tree
 """
 

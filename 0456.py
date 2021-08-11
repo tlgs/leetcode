@@ -1,4 +1,4 @@
-"""456. 132 Pattern (MEDIUM)
+"""456. 132 Pattern
 
 We're looking for a subsequence (i, j, k) such that i < k < j.
 
@@ -7,6 +7,7 @@ We use a stack to keep track of the largest valid value for k.
 As soon as we find an element that is lesser than our k candidate,
 we know we have found an 132 pattern.
 
+difficulty: medium
 tags: monotonic stack
 """
 

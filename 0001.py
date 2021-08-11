@@ -1,5 +1,6 @@
-"""1. Two Sum (EASY)
+"""1. Two Sum
 
+difficulty: easy
 tags: hash table, array
 """
 

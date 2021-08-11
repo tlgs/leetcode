@@ -1,5 +1,6 @@
-"""1929. Concatenation of Array (EASY)
+"""1929. Concatenation of Array
 
+difficulty: easy
 tags: array
 """
 

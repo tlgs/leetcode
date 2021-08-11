@@ -1,5 +1,6 @@
-"""1480. Running Sum of 1d Array (EASY)
+"""1480. Running Sum of 1d Array
 
+difficulty: easy
 tags: array
 """
 

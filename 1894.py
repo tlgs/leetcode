@@ -1,5 +1,6 @@
-"""1894. Find the Student that Will Replace the Chalk (MEDIUM)
+"""1894. Find the Student that Will Replace the Chalk
 
+difficulty: medium
 tags: array
 """
 

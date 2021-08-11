@@ -1,5 +1,6 @@
-"""1436. Destination City (EASY)
+"""1436. Destination City
 
+difficulty: easy
 tags: set
 """
 

@@ -1,5 +1,6 @@
-"""104. Maximum Depth of Binary Tree (EASY)
+"""104. Maximum Depth of Binary Tree
 
+difficulty: easy
 tags: binary tree
 """
 

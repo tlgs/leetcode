@@ -1,5 +1,6 @@
-"""1475. Final Prices With a Special Discount in a Shop (EASY)
+"""1475. Final Prices With a Special Discount in a Shop
 
+difficulty: easy
 tags: monotonic stack
 """
 

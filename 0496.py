@@ -1,5 +1,6 @@
-"""496. Next Greater Element I (EASY)
+"""496. Next Greater Element I
 
+difficulty: easy
 tags: monotonic stack, hash table
 """
 

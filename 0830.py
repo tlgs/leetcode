@@ -1,5 +1,6 @@
-"""830. Positions of Large Groups (EASY)
+"""830. Positions of Large Groups
 
+difficulty: easy
 tags: itertools
 """
 

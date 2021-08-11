@@ -1,5 +1,6 @@
-"""26. Remove Duplicates from Sorted Array (EASY)
+"""26. Remove Duplicates from Sorted Array
 
+difficulty: easy
 tags: array
 """
 
