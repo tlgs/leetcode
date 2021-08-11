@@ -1,4 +1,4 @@
-"""654. Maximum Binary Tree
+"""654. Maximum Binary Tree (MEDIUM)
 
 tags: monotonic stack, binary tree
 """

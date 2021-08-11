@@ -1,4 +1,4 @@
-"""1436. Destination City
+"""1436. Destination City (EASY)
 
 tags: set
 """

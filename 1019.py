@@ -1,4 +1,4 @@
-"""1019. Next Greater Node In Linked List
+"""1019. Next Greater Node In Linked List (MEDIUM)
 
 tags: monotonic stack, linked list
 """

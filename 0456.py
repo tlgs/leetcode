@@ -1,4 +1,4 @@
-"""456. 132 Pattern
+"""456. 132 Pattern (MEDIUM)
 
 We're looking for a subsequence (i, j, k) such that i < k < j.
 
