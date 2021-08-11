@@ -4,10 +4,8 @@
 
 
 BEGIN {
-  if (NR == 0) {
-    query = ARGV[1]
-    delete ARGV[1]
-  }
+  query = ARGV[1]
+  delete ARGV[1]
 }
 
 FNR == 1 { problem = substr($0, 4) }
