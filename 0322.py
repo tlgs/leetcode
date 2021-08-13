@@ -2,16 +2,14 @@
 
 difficulty: medium
 tags: dynamic programming
-runtime: 98.76
-memory: 38.91
+runtime: 94.71
+memory: 81.49
 """
 import sys
 
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        coins.sort()
-
         dp = [0] + [sys.maxsize for _ in range(amount)]
         for value in range(1, amount + 1):
             for coin in coins:
