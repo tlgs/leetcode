@@ -2,6 +2,8 @@
 
 difficulty: easy
 tags: binary tree
+runtime: 72.66
+memory: 61.58
 """
 
 

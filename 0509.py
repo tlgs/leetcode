@@ -2,14 +2,18 @@
 
 difficulty: easy
 tags: dynamic programming
+runtime: 83.18
+memory: 89.45
 """
 
 
 class Solution:
-    mem = {0: 0, 1: 1}
-
     def fib(self, n: int) -> int:
-        if n not in self.mem:
-            self.mem[n] = self.fib(n - 1) + self.fib(n - 2)
+        if n == 0:
+            return 0
 
-        return self.mem[n]
+        prev, curr = 0, 1
+        for _ in range(n - 1):
+            prev, curr = curr, prev + curr
+
+        return curr

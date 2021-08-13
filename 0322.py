@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: dynamic programming
+runtime: 98.76
+memory: 38.91
 """
 import sys
 

@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: monotonic stack, binary tree
+runtime: 99.15
+memory: 34.45
 """
 
 # Definition for a binary tree node.

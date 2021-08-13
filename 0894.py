@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: dynamic programming, binary tree
+runtime: 96.50
+memory: 94.51
 """
 
 

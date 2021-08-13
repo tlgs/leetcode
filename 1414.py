@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: greedy
+runtime: 61.34
+memory: 46.54
 """
 
 

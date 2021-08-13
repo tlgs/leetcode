@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: monotonic stack, binary tree
+runtime: 97.03
+memory: 43.76
 """
 
 

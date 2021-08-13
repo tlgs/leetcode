@@ -2,6 +2,8 @@
 
 difficulty: easy
 tags: array
+runtime: 90.00
+memory: 54.89
 """
 
 

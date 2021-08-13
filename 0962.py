@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: monotonic stack
+runtime: 70.59
+memory: 73.35
 """
 
 

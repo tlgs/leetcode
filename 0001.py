@@ -2,6 +2,8 @@
 
 difficulty: easy
 tags: hash table, array
+runtime: 73.03
+memory: 20.73
 """
 
 

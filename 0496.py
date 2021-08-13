@@ -2,6 +2,8 @@
 
 difficulty: easy
 tags: monotonic stack, hash table
+runtime: 87.75
+memory: 71.31
 """
 
 

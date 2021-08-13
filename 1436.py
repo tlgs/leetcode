@@ -2,6 +2,8 @@
 
 difficulty: easy
 tags: set
+runtime: 75.68
+memory: 92.23
 """
 
 

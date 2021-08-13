@@ -2,6 +2,8 @@
 
 difficulty: medium
 tags: monotonic stack, linked list
+runtime: 92.62
+memory: 71.04
 """
 
 

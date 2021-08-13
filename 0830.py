@@ -2,6 +2,8 @@
 
 difficulty: easy
 tags: itertools
+runtime: 94.20
+memory: 33.86
 """
 
 

@@ -9,6 +9,8 @@ we know we have found an 132 pattern.
 
 difficulty: medium
 tags: monotonic stack
+runtime: 95.03
+memory: 50.85
 """
 
 
