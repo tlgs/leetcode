@@ -5,6 +5,7 @@ tags: itertools
 runtime: 94.20
 memory: 33.86
 """
+import itertools
 
 
 class Solution:
