@@ -2,7 +2,7 @@
 #
 # Note: PROCINFO["sorted_in"] values are gawk specific.
 #
-# Usage: ./stats.awk
+# Usage: ./stats.awk file1 file2 ...
 
 
 $1 ~ /difficulty:/ { diff[$2]++ }
