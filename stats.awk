@@ -1,23 +1,36 @@
 #! /bin/awk -f
 #
-# Note: PROCINFO["sorted_in"] values are gawk specific.
+# Note: asorti and PROCINFO["sorted_in"] values are gawk specific.
 #
 # Usage: ./stats.awk file1 file2 ...
 
 
-$1 ~ /difficulty:/ { diff[$2]++ }
+BEGIN {
+  for (i = 0; i < 10; i++) {
+    runtime[i] = 0
+    memory[i] = 0
+  }
+}
+
+
+/^$/ { next }
+
+$1 ~ /difficulty:/ {
+  diff[$2] = $2 in diff ? diff[$2] + 1 : 1
+}
 
 $1 ~ /tags:/ {
   sub(/tags: /, "", $0)
   split($0, a, ", ")
   for (i in a) {
-    tags[a[i]]++
+    tags[a[i]] = a[i] in tags ? tags[a[i]] + 1 : 1
   }
 }
 
 $1 ~ /runtime:/ { runtime[int($2 / 10)]++ }
 
 $1 ~ /memory:/ { memory[int($2 / 10)]++ }
+
 
 END {
   n = asorti(diff, ddiff, "@ind_str_asc")
