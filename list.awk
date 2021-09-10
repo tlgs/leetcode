@@ -8,9 +8,9 @@ BEGIN {
   delete ARGV[1]
 }
 
-FNR == 1 { problem = substr($0, 4) }
-
 /^$/ { next }
+
+FNR == 1 { problem = substr($0, 4) }
 
 $1 ~ /difficulty:/ { difficulty = $2 }
 
