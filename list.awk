@@ -10,6 +10,8 @@ BEGIN {
 
 FNR == 1 { problem = substr($0, 4) }
 
+/^$/ { next }
+
 $1 ~ /difficulty:/ { difficulty = $2 }
 
 $1 ~ /tags:/ && $0 ~ query {
