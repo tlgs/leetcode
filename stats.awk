@@ -12,12 +12,9 @@ BEGIN {
   }
 }
 
-
 /^$/ { next }
 
-$1 ~ /difficulty:/ {
-  diff[$2] = $2 in diff ? diff[$2] + 1 : 1
-}
+$1 ~ /difficulty:/ { diff[$2] = $2 in diff ? diff[$2] + 1 : 1 }
 
 $1 ~ /tags:/ {
   sub(/tags: /, "", $0)
