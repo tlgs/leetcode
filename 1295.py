@@ -12,5 +12,5 @@ class Solution:
         cnt = 0
         for v in nums:
             cnt += int(math.log10(v)) % 2
-        
+
         return cnt
