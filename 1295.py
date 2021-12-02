@@ -7,6 +7,7 @@ memory: 72.11
 """
 import math
 
+
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         cnt = 0

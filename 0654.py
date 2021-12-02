@@ -6,6 +6,7 @@ runtime: 99.15
 memory: 34.45
 """
 
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

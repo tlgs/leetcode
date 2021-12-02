@@ -11,7 +11,7 @@ class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         stack = []
         m = {}
-        for i, v in enumerate(nums2):
+        for _, v in enumerate(nums2):
             while stack and stack[-1] < v:
                 m[stack.pop()] = v
 
